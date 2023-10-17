@@ -91,6 +91,6 @@ button:hover{
     border: 1px solid #000000;
     background: #000000;
     color: #fff;
-    transition: 1s;
+    transition: .25s;
 }
 

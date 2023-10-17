@@ -9,7 +9,7 @@ const drawMessage = () =>`Draw!`;
 const currentPlayerTurn = () =>`It's ${currentPlayer}'s turn!`;
 
 statusDisplay.innerHTML = currentPlayerTurn();
-document.querySelectorAll(".cell").forEach(cell => cell.addEventListener("click", handleCellClick);
+document.querySelectorAll(".cell").forEach(cell => cell.addEventListener("click", handleCellClick));
 document.querySelector(".restart").addEventListener("click", handleRestartGame);
 
 function handleCellClick(clickedCellEvent){
@@ -44,6 +44,28 @@ const winningConditions = [
     
 ];
 
+function handleResultValidation(){
+    let roundWon = false;
+    for (let i= 0; i<=7; i++){
+        const winningCondition = winningConditions[i];
+        let a = gameState[winningCondition[0]];
+        let b = gameState[winningCondition[1]];
+        let c = gameState[winningCondition[2]];
+
+        if (a==='' || b=='' || c==''){
+            roundWon= true;
+            break
+        }
+    }
+    if (roundWon){
+        statusDisplay.innerHTML = winningMessage();
+        gameActive = false;
+        return;
+    }
+    let round
+
+
+}
 
 
 
