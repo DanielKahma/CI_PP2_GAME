@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Game</title>
+    <title>Feedback</title>
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,26 +26,32 @@
                 <li><a href="feedback.html">Feedback</a></li>
                 <li><a href="quiz.html">Quiz</a></li>
               </ul>
+
             </div>
           </nav>
-        <h1 class="gameHeader">Tic Tac Toe</h1>
-        <div class="gameContainer">
-            <div data-cell-index="0" class="cell"></div>
-            <div data-cell-index="1" class="cell"></div>
-            <div data-cell-index="2" class="cell"></div>
-            <div data-cell-index="3" class="cell"></div>
-            <div data-cell-index="4" class="cell"></div>
-            <div data-cell-index="5" class="cell"></div>
-            <div data-cell-index="6" class="cell"></div>
-            <div data-cell-index="7" class="cell"></div>
-            <div data-cell-index="8" class="cell"></div>
-        </div>
-        <h3 class="gameStatus"></h3>
-        <button class="restart">Restart</button>
-    </section>
-    <script src="assets/js/game.js"></script>
-    <script src="assets/feedback/feedback.js"></script>
-    <script src="assets/quiz/quiz.js"></script>
-    
-</body>
-</html>
+          <div class="feedbackContainer">
+            <form>
+                <h1>How Satisfied Are You With The Game?</h1>
+                <div class="id">
+                    <input type="text" placeholder="Name">
+                    <i class="far fa user"></i>
+                </div>
+                <div class="id">
+                    <input type="email" placeholder="Email">
+                    <i class="far fa envelope"></i>
+                    <textarea cols="15" rows="8" placeholder="Enter Text Here.."></textarea>
+                </div>
+                
+                <button>Send</button>
+            </form>
+            </div>
+
+
+          </div>
+        </section>
+        <script src="assets/js/game.js"></script>
+        <script src="assets/feedback/feedback.js"></script>
+        <script src="assets/quiz/quiz.js"></script>
+        
+    </body>
+    </html>
