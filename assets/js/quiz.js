@@ -46,10 +46,11 @@ const questions = [
     }
 
 ];
+const questionElement = document.getElementById("question")
+;
+const answerButtons = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
 
-const answerButton = document.getElementById("answer-buttons");
-const nextButton = document.getElementById("next-button");
-const questionElement = document.getElementById("question");
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -62,6 +63,7 @@ function startQuiz(){
 }
 
 function showQuestion(){
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -70,8 +72,16 @@ function showQuestion(){
         const button = document.createElement("button");
         button.innerHTML = answer.text;
         button.classList.add("btn");
-        answerButton.appendChild(button);
+        answerButtons.appendChild(button);
+        button.addEventListener("click", selectAnswer);
     });
+}
+
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
+    }
 }
 
 startQuiz();
