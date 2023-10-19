@@ -113,3 +113,25 @@ form textarea{
     width: 100%;
 }
 
+.quizArea h1{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.quiz h2{
+    font-size: 15px;
+    
+}
+.btn{
+    font-family: cursive;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(25, 0, 255);
+    color: #ffffff;
+    transition: .5s;
+}
