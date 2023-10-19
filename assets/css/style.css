@@ -61,7 +61,7 @@ nav {
     width: 150px;
     margin: 120px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
 
 }
 .cell{
@@ -97,11 +97,7 @@ button:hover{
     margin: 5%;
     
 }
-form .id{
-    margin 5%
-    padding: 10px;
-    
-}
+
 form input{
     margin: 2%;
     border: 2px solid #000000;
@@ -109,6 +105,7 @@ form input{
     background-color: transparent;
 }
 form textarea{
+    margin-top: 20px;
     border: 2px solid #000000;
     width: 100%;
 }
@@ -116,6 +113,11 @@ form textarea{
 .quizArea h1{
     font-weight: 400;
     font-size: 25px;
+}
+hr{
+    padding-left: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 .quiz h2{
@@ -134,4 +136,7 @@ form textarea{
     background-color: rgb(25, 0, 255);
     color: #ffffff;
     transition: .5s;
+}
+#next-btn{
+    margin: 20px auto 0;
 }
