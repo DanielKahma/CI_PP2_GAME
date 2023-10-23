@@ -154,3 +154,9 @@ hr{
     background: #00000000;
     color: #000000;
 }
+.correct{
+    background: #06c000;
+}
+.incorrect{
+    background: #ff4848;
+}

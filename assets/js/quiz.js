@@ -5,7 +5,7 @@ const questions = [
             {text: "11", correct: false},
             {text: "12", correct: false},
             {text: "13", correct: true},
-            {text: "14", correct: false}
+            {text: "14", correct: false},
         ]
     },
     {
@@ -14,7 +14,7 @@ const questions = [
             {text: "162,486", correct: false},
             {text: "267,570", correct: true},
             {text: "18", correct: false},
-            {text: "211,380", correct: false}
+            {text: "211,380", correct: false},
         ]
     },
     {
@@ -23,7 +23,7 @@ const questions = [
             {text: "2", correct: false},
             {text: "4", correct: false},
             {text: "6", correct: false},
-            {text: "8", correct: true}
+            {text: "8", correct: true},
         ]
     },
     {
@@ -32,7 +32,7 @@ const questions = [
             {text: "Eiichiro Oda", correct: true},
             {text: "Akira Toriyama", correct: false},
             {text: "Masashi Kishimoto", correct: false},
-            {text: "Noriaki Kubo", correct: false}
+            {text: "Noriaki Kubo", correct: false},
         ]
     },
     {
@@ -41,13 +41,12 @@ const questions = [
             {text: "Elephant", correct: false},
             {text: "Blue whale", correct: true},
             {text: "giraffe", correct: false},
-            {text: "A large dog", correct: false}
+            {text: "A large dog", correct: false},
         ]
     }
 
 ];
-const questionElement = document.getElementById("question")
-;
+const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
@@ -73,6 +72,9 @@ function showQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        if(answer.correct){
+            button.dataset.correct = answer.correct;
+        }
         button.addEventListener("click", selectAnswer);
     });
 }
@@ -82,6 +84,25 @@ function resetState(){
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
+}
+
+function selectAnswer(e){
+    const selectedBtn = e.target;
+    const isCorrect = selectedBtn.dataset.correct === "true";
+    if(isCorrect){
+        selectedBtn.classList.add("correct");
+    }else{
+        selectedBtn.classList.add("incorrect");
+    }
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+
+    })
+    nextButton.style.display = "block"
+
 }
 
 startQuiz();
