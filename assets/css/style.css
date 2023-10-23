@@ -132,10 +132,13 @@ hr{
     cursor: pointer;
 
 }
-.btn:hover{
-    background-color: rgb(25, 0, 255);
+.btn:hover:not([disabled]){
+    background-color: rgb(59, 150, 255);
     color: #ffffff;
-    transition: .5s;
+    
+}
+.btn:disabled{
+    cursor: no-drop;
 }
 #next-btn{
     background: #ffffff;
