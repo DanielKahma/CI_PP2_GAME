@@ -1,3 +1,4 @@
+
 # Tic-Tac-Toe
 
 ![Mockup image](docs/headerreadme.png)
@@ -56,3 +57,25 @@ For this project i chose to use a dark background for a more cozy enviroment and
 ![End of Quiz](quizend.png)
 
 
+
+## Validation
+
+### HTML Validation
+
+![Gamepage](docs/indexvalidation.png)
+
+![Feedback page](docs/feedbackvalidation.png)
+
+![Quiz page](docs/quizvalidation.png)
+
+### CSS Validation
+
+![CSS](docs/cssvalidation.png)
+
+### JavaScript Validation
+
+![Gamepage](docs/jsvalidationgame.png)
+
+![Feedback page](docs/jsvalidationfeedback.png)
+
+![Quiz page](docs/jsvalidationquiz.png)
