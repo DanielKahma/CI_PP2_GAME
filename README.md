@@ -43,7 +43,7 @@ For this project i chose to use a dark background for a more cozy enviroment and
 ![Failed to fill out all the fields](docs/feedbackdenied.png)
 
 #### Quiz page
-![Quiz](docs/quiz.png)
+![Quiz](docs/Quiz.png)
 
 #### Wrong answer on quiz
 ![Wrong answer](docs/quizwrong.png)
