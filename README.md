@@ -1,3 +1,4 @@
+
 # Introduction
 
 - As my first ever game to create, i created Tic-Tac-Toe, it is a simple game and was a great start for me.
@@ -31,3 +32,19 @@ For this project i chose to use a dark background for a more cozy enviroment and
 
 ### Someone Wins!
 ![A winner](docs/winning.png)
+
+### Feedback page
+#### ![Feedback page](docs/feedback.png)
+
+#### ![Sending a message](docs/feedbackworks.png)
+
+#### ![Failed to fill out all the fields](docs/feedbackdenied.png)
+
+
+### ![Quiz](docs/quiz.png))
+
+#### ![Wrong answer](docs/quizwrong.png)
+
+#### ![End of Quiz](quizend.png)
+
+
