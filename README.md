@@ -62,9 +62,15 @@ For this project i chose to use a dark background for a more cozy enviroment and
 
 ### HTML Validation
 
+- Gamepage
+
 ![Gamepage](docs/indexvalidation.png)
 
+-Deedback page
+
 ![Feedback page](docs/feedbackvalidation.png)
+
+- Quiz page
 
 ![Quiz page](docs/quizvalidation.png)
 
