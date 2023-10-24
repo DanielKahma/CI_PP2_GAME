@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const questions = [
     {
         question: "How many months do I think there should be in 1 year?",
@@ -101,7 +102,7 @@ function selectAnswer(e){
         }
         button.disabled = true;
 
-    })
+    });
     nextButton.style.display = "block";
 
 }

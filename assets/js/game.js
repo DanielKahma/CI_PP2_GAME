@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const statusDisplay = document.querySelector('.gameStatus');
 
 let gameActive = true;
@@ -57,7 +58,7 @@ function handleResultValidation(){
         }
         if (a === b && b === c){
             roundWon= true;
-            break
+            break;
         }
     }
     if (roundWon){
