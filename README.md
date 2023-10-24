@@ -27,24 +27,28 @@ For this project i chose to use a dark background for a more cozy enviroment and
 - CSS
 - JavaScript
 ## Features
-### Mainpage
+#### Mainpage
 ![Mainpage](docs/gamepage.png)
 
-### Someone Wins!
+#### Someone Wins!
 ![A winner](docs/winning.png)
 
-### Feedback page
-#### ![Feedback page](docs/feedback.png)
+#### Feedback page
+![Feedback page](docs/feedback.png)
 
-#### ![Sending a message](docs/feedbackworks.png)
+#### Sends a message
+![Sending a message](docs/feedbackworks.png)
 
-#### ![Failed to fill out all the fields](docs/feedbackdenied.png)
+#### Error
+![Failed to fill out all the fields](docs/feedbackdenied.png)
 
+#### Quiz page
+![Quiz](docs/quiz.png)
 
-### ![Quiz](docs/quiz.png))
+#### Wrong answer on quiz
+![Wrong answer](docs/quizwrong.png)
 
-#### ![Wrong answer](docs/quizwrong.png)
-
-#### ![End of Quiz](quizend.png)
+#### End Screen of quiz
+![End of Quiz](quizend.png)
 
 
