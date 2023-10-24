@@ -37,10 +37,10 @@ For this project i chose to use a dark background for a more cozy enviroment and
 ![Feedback page](docs/feedback.png)
 
 #### Sends a message
-![Sending a message](docs/feedbackworks.png)
+![Sending a message](docs/Feedbackworks.png)
 
 #### Error
-![Failed to fill out all the fields](docs/feedbackdenied.png)
+![Failed to fill out all the fields](docs/Feedbackdenied.png)
 
 #### Quiz page
 ![Quiz](docs/Quiz.png)
