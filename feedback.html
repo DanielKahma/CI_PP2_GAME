@@ -31,25 +31,32 @@
           </nav>
           <hr>
           <div class="feedbackContainer">
-            <form>
+            <div class="box">
                 <h1>How Satisfied Are You With The Game?</h1>
                 <hr>
                 <div class="id">
-                    <input type="text" placeholder="Name">
-                    <i class="far fa user"></i>
+                    <input type="text" placeholder="Name" id="id">
                 </div>
-                <div class="id">
-                    <input type="email" placeholder="Email">
-                    <i class="far fa envelope"></i>
-                    <textarea cols="15" rows="8" placeholder="Enter Text Here.."></textarea>
+                <div class="email">
+                    <input type="email" placeholder="Email" id="email">
                 </div>
                 
-                <button>Send</button>
-            </form>
+                <div class="msg-box">
+                  <textarea id="msg" cols="15" rows="8" 
+                  placeholder="Enter Text Here.."></textarea>
+                </div>
+
+                <div class="send-button">
+                  <button id="send" onclick="message()">Send</button>                
+                </div>
+
+                <div class="message">
+                  <div class="success" id="success">Thank you for your message!</div>
+                  <div class="danger" id="danger">Fields Can't Be Empty!</div>
+                </div>
+              </div>
             </div>
-
-
-          </div>
+          
         </section>
     <script src="assets/js/feedback.js"></script>
         

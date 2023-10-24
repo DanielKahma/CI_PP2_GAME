@@ -95,17 +95,43 @@ button:hover{
     margin: 5%;
     
 }
+.name{
+    border: 1px solid;
+}
 
-form input{
+.box input{
     margin: 2%;
     border: 2px solid #000000;
     border-radius: 5px;
     background-color: transparent;
 }
-form textarea{
+.box textarea{
     margin-top: 20px;
     border: 2px solid #000000;
-    width: 100%;
+    width: 80%;
+}
+
+.message .success{
+    color: #06c000;
+    animation: send-button .2s linear;
+    display: none;
+}
+.message .danger{
+    color: #ff4848;
+    animation: send-button .2s linear;
+    transition: 0.3s;
+    display: none;
+}
+@keyframes send-button{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.3);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .quizArea h1{
