@@ -48,7 +48,7 @@ For this project i chose to use a dark background for a more cozy enviroment and
 #### Wrong answer on quiz
 ![Wrong answer](docs/quizwrong.png)
 
-#### End Screen of quiz
+#### Endscreen of quiz
 ![End of Quiz](quizend.png)
 
 
