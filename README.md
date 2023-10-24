@@ -3,6 +3,19 @@
 
 ![Mockup image](docs/headerreadme.png)
 
+- Title
+  
+- Introduction
+  
+- Design
+  
+- User-Goals
+  
+- Technologies
+  
+- Feature
+  
+- Validation
 
 # Introduction
 
