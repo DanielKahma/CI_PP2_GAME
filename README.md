@@ -1,3 +1,4 @@
+
 # Introduction
 
 - As my first ever game to create, i created Tic-Tac-Toe, it is a simple game and was a great start for me.
@@ -26,8 +27,28 @@ For this project i chose to use a dark background for a more cozy enviroment and
 - CSS
 - JavaScript
 ## Features
-### Mainpage
+#### Mainpage
 ![Mainpage](docs/gamepage.png)
 
-### Someone Wins!
+#### Someone Wins!
 ![A winner](docs/winning.png)
+
+#### Feedback page
+![Feedback page](docs/feedback.png)
+
+#### Sends a message
+![Sending a message](docs/Feedbackworks.png)
+
+#### Error
+![Failed to fill out all the fields](docs/Feedbackdenied.png)
+
+#### Quiz page
+![Quiz](docs/Quiz.png)
+
+#### Wrong answer on quiz
+![Wrong answer](docs/quizwrong.png)
+
+#### Endscreen of quiz
+![End of Quiz](docs/quizend.png)
+
+
